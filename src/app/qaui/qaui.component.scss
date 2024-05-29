@@ -1,0 +1,20 @@
+.flex-row{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.btn-next{
+    background-color: #222;
+    padding: 8px 11px;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    border: none;
+    border-radius: 5pxs;
+}
+section{
+    padding: 10px;
+}
+.err-msg{
+    color: red;
+}

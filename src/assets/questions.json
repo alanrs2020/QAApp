@@ -1,0 +1,82 @@
+[{
+    "question":"Which version of Angular marked the shift from AngularJS to Angular?",
+     "a":"Angular 2",
+     "b":"Angular 4",
+     "c":"Angular 5",
+     "d":"Angular 6",
+     "answer":"Angular 2"
+},
+{
+    "question":"Angular is primarily maintained by which company?",
+     "a":"Google",
+     "b":"Facebook",
+     "c":"Micosoft",
+     "d":"Amazon",
+     "answer":"Google"
+},
+{
+    "question":"In Angular, which file is used to define the set of modules, components, and services?",
+     "a":"app.module.ts",
+     "b":"app.componet.ts",
+     "c":"angular.json",
+     "d":"package.son",
+     "answer":"app.module.ts"
+},
+{
+    "question":"What does CLI stand for in Angular CLI?",
+     "a":"Command Line Interaction",
+     "b":"Command Line Interface",
+     "c":"Command Language Interpretation",
+     "d":"Command Link Interface",
+     "answer":"Command Line Interface"
+},
+{
+    "question":"Which command is used to generate a new component in an Angular project?",
+     "a":"ng generate service",
+     "b":"ng generate component",
+     "c":"ng create component",
+     "d":"ng add component",
+     "answer":"ng generate component"
+},
+{
+    "question":"To update Angular to a newer version, which command is used?",
+     "a":"ng update",
+     "b":"ng upgrade",
+     "c":"ng new version",
+     "d":"ng refresh",
+     "answer":"ng update"
+},
+{
+    "question":"In Angular, which file is primarily responsible for defining npm packages for the project?",
+     "a":"app.module.ts",
+     "b":"app.componet.ts",
+     "c":"angular.json",
+     "d":"package.json",
+     "answer":"package.json"
+},
+{
+    "question":"What is the purpose of the angular.json file in an Angular project?",
+     "a":"Define components and services",
+     "b":"Set up routing",
+     "c":"Configure project-specific settings",
+     "d":"List TypeScript files",
+     "answer":"Configure project-specific settings"
+},
+{
+    "question":"Which command is used to serve an Angular application locally for development?",
+     "a":"ng serve",
+     "b":"ng start",
+     "c":"ng run",
+     "d":"ng develop",
+     "answer":"ng serve"
+},
+{
+    "question":"What is the output of the following Angular CLI command:ng g c my-component --flat?",
+     "a":"A new component in a separate folder",
+     "b":"A new component in the app folder",
+     "c":"A new module",
+     "d":"A new service",
+     "answer":"A new component in the app folder"
+}
+
+]

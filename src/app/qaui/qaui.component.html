@@ -1,0 +1,24 @@
+<section class="example-section" [formGroup]="qaForm">
+    <h4>{{data?.question}}</h4>
+   
+    <mat-radio-group formControlName="selectedOption" >
+      <div class="flex-row">
+       
+            <mat-radio-button class="example-margin" [value]='data.a'>{{data.a }}</mat-radio-button>
+            
+            <mat-radio-button class="example-margin" [value]='data.b'>{{data.b }}</mat-radio-button>
+           
+       
+        
+            <mat-radio-button class="example-margin" [value]='data.c'>{{data.c }}</mat-radio-button>
+            <mat-radio-button class="example-margin" [value]='data.d'>{{data.d }}</mat-radio-button>
+       
+      </div>
+        
+      </mat-radio-group>
+      <button class="btn-next" (click)="nextQuestion()">Next</button>
+      <br>
+ <p class="err-msg" *ngIf=showRequired>* All questions are mandatory.You must choose an option to continue.</p>
+   
+   
+  </section>
